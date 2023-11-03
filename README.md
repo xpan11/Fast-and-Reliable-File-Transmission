@@ -44,6 +44,6 @@ cd receiver
 ## Performance 
 (over a **100 Mbps link** with **200ms delay** and **20% packet loss**.)  
 
-Throughput (Files < 800MB):  more than 45 Mbps   
-**Throughput (1GB - Improved Version)**: more than **47 Mbps**
+auto_*_small's Throughput (Files < 800MB):  more than 45 Mbps   
+auto_*_0's **Throughput (1GB - Improved Version)**: more than **47 Mbps**
 
