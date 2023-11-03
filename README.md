@@ -41,9 +41,9 @@ cd receiver
 ./auto_rec_0.sh <filename> <receiver_ip>
 ```
 
-## Performance
-Throughput (Files < 800MB):   
-More than 45 Mbps over 100 Mbps link with 200ms delay and 20% packet loss.  
-**Throughput (1GB - Improved Version):**  
-More than **47 Mbps** under **100 Mbps** link with **200ms delay** and **20% packet loss**.  
+## Performance 
+(over a **100 Mbps link** with **200ms delay** and **20% packet loss**.)  
+
+Throughput (Files < 800MB):  more than 45 Mbps   
+**Throughput (1GB - Improved Version)**: more than **47 Mbps**
 
