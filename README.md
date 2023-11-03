@@ -31,7 +31,8 @@ FRFT is engineered to maximize throughput in high-latency and packet-loss-prone 
 
 Throughput (Files < 800MB):  more than 45 Mbps     
 **Throughput (1GB - Improved Version)**: more than **47 Mbps**   
-**which is more than 1000 faster than SCP!!!**
+  
+**Which is more than 1000 faster than SCP!!!**
 
 
 ## Run the Application
