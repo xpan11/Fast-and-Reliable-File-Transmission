@@ -22,21 +22,23 @@ FRFT is engineered to maximize throughput in high-latency and packet-loss-prone 
 ## Run the Application
 
 ### Sender Side:
-Clone the sender folder on the sender side:
+Clone the sender folder on the sender side then:
 ```bash
+cd sender
 #For files less than 800MB(prototype version):
-bash auto_send_small.sh <filename> <receiver_ip>
+./auto_send_small.sh <filename> <receiver_ip>
 #For 1GB file transmission (Improved Version 2):
-bash auto_send_0.sh <filename> <receiver_ip>
+./auto_send_0.sh <filename> <receiver_ip>
 ```
 
 ### Receiver Side:
-Clone the receiver folder on the receiver side:
+Clone the receiver folder on the receiver side then:
 ```bash
+cd receiver
 #For files less than 800MB(prototype version):
-bash auto_rec_small.sh <filename> <receiver_ip>
+./auto_rec_small.sh <filename> <receiver_ip>
 #For 1GB file transmission (Improved Version 2):
-bash auto_rec_0.sh <filename> <receiver_ip>
+./auto_rec_0.sh <filename> <receiver_ip>
 ```
 
 ## Performance
