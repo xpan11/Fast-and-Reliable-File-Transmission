@@ -19,6 +19,10 @@ FRFT is engineered to maximize throughput in high-latency and packet-loss-prone 
   - Ubuntu Sender and Receiver: `amazon/ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20210928`
   - Vyos Router: `507040250710/VyOS (HVM) 1.3-rolling-202208231231`
 
+## Different Version
+
+- Prototype version(auto_send_small.sh and auto_send_0.sh):
+- 
 ## Run the Application
 
 ### Sender Side:
@@ -44,6 +48,6 @@ cd receiver
 ## Performance 
 (over a **100 Mbps link** with **200ms delay** and **20% packet loss**.)  
 
-auto_*_small's Throughput (Files < 800MB):  more than 45 Mbps   
-auto_*_0's **Throughput (1GB - Improved Version)**: more than **47 Mbps**
+Throughput (Files < 800MB):  more than 45 Mbps     
+**Throughput (1GB - Improved Version)**: more than **47 Mbps**
 
