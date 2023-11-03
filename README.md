@@ -27,7 +27,7 @@ FRFT is engineered to maximize throughput in high-latency and packet-loss-prone 
   - Support 1GB file transmission with optimal performance
  
 ## Performance 
-(over a **100 Mbps link** with **200ms delay** and **20% packet loss**.)  
+(Over a **100 Mbps link** with **200ms delay** and **20% packet loss**.)  
 
 Throughput (Files < 800MB):  more than 45 Mbps     
 **Throughput (1GB - Improved Version)**: more than **47 Mbps**   
