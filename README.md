@@ -44,6 +44,6 @@ cd receiver
 ## Performance
 Throughput (Files < 800MB):   
 More than 45 Mbps over 100 Mbps link with 200ms delay and 20% packet loss.  
-Throughput (1GB - Improved Version):  
-More than 47 Mbps under 100 Mbps limit with 200ms delay and 20% packet loss.  
+**Throughput (1GB - Improved Version):**  
+More than **47 Mbps** under **100 Mbps** link with **200ms delay** and **20% packet loss**.  
 
