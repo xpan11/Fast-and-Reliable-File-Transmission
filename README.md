@@ -24,13 +24,14 @@ FRFT is engineered to maximize throughput in high-latency and packet-loss-prone 
 - Prototype version(auto_send_small.sh and auto_rec_small.sh):
   - Support for file size smaller than 800MB with great performance
 - Formal (Improved) version(auto_send_0.sh and auto_rec_0.sh):
-  - Support 1GB file transmission with better performance
+  - Support 1GB file transmission with optimal performance
  
 ## Performance 
 (over a **100 Mbps link** with **200ms delay** and **20% packet loss**.)  
 
 Throughput (Files < 800MB):  more than 45 Mbps     
-**Throughput (1GB - Improved Version)**: more than **47 Mbps**
+**Throughput (1GB - Improved Version)**: more than **47 Mbps**   
+**which is more than 1000 faster than SCP!!!**
 
 
 ## Run the Application
