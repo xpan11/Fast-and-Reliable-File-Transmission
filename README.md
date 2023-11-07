@@ -38,9 +38,13 @@ Throughput (Files < 800MB):  more than 45 Mbps
 ## Run the Application
 
 ### Sender Side:
-Clone the sender folder on the sender side then:
+Clone the sender folder on the sender side:
 ```bash
-cd sender
+git clone https://github.com/xpan11/Fast-and-Reliable-File-Transmission
+```  
+then:   
+```bash
+cd Fast-and-Reliable-File-Transmission/sender
 #For files less than 800MB(prototype version):
 ./auto_send_small.sh <filename> <receiver_ip>
 #For 1GB file transmission (Improved Version 2):
@@ -48,9 +52,13 @@ cd sender
 ```
 
 ### Receiver Side:
-Clone the receiver folder on the receiver side then:
+Clone the receiver folder on the receiver side:
 ```bash
-cd receiver
+git clone https://github.com/xpan11/Fast-and-Reliable-File-Transmission
+```  
+then:  
+```bash
+cd Fast-and-Reliable-File-Transmission/receiver
 #For files less than 800MB(prototype version):
 ./auto_rec_small.sh <filename> <receiver_ip>
 #For 1GB file transmission (Improved Version 2):
